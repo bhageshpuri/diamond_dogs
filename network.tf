@@ -52,7 +52,7 @@ resource "google_compute_firewall" "allow-iap" {
 
 # Allow ssh
 resource "google_compute_firewall" "allow-health-checks" {
-  name    = "fw-allow-ssh"
+  name    = "fw-allow-health-checks"
   network = google_compute_network.vpc_network.self_link
   allow {
     protocol = "tcp"
