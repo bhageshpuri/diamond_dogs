@@ -19,5 +19,5 @@ variable "vpc_subnet_count" {
 variable "instance_count" {
   type        = number
   description = "Number of instances to create in VPC"
-  default     = 1
+  default     = 2
 }
